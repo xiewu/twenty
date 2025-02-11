@@ -26,7 +26,7 @@ msgstr "{aggregateLabel} de {fieldLabel}"
 msgid "{apiKeyName} API Key"
 msgstr "{apiKeyName} Clé API"
 
-#: src/modules/action-menu/actions/record-agnostic-actions/run-workflow-actions/hooks/useRunWorkflowActions.tsx:41
+#: src/modules/action-menu/actions/record-agnostic-actions/run-workflow-actions/hooks/useRunWorkflowActions.tsx:40
 #: src/modules/action-menu/actions/record-actions/workflow-run-record-actions/hooks/useWorkflowRunRecordActions.tsx:65
 msgid "{name}"
 msgstr "{name}"
@@ -89,7 +89,7 @@ msgstr "Activer le workflow"
 msgid "Active"
 msgstr "Actif"
 
-#: src/pages/settings/developers/SettingsDevelopers.tsx:50
+#: src/pages/settings/developers/SettingsDevelopers.tsx:71
 msgid "Active API keys created by you or your team."
 msgstr "Clés API actives créées par vous ou votre équipe."
 
@@ -167,7 +167,7 @@ msgstr "Permettre aux utilisateurs de se connecter avec un courriel et un mot de
 msgid "An error occurred while updating password"
 msgstr "Une erreur s'est produite lors de la mise à jour du mot de passe"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:251
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:151
 msgid "An optional description"
 msgstr "Une description facultative"
 
@@ -185,7 +185,7 @@ msgstr "API & Webhooks"
 msgid "API Key"
 msgstr "Clé API"
 
-#: src/pages/settings/developers/SettingsDevelopers.tsx:49
+#: src/pages/settings/developers/SettingsDevelopers.tsx:70
 msgid "API keys"
 msgstr "Clés API"
 
@@ -316,7 +316,7 @@ msgstr "Chinois - Simplifié"
 msgid "Chinese — Traditional"
 msgstr "Chinois - Traditionnel"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:281
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:180
 msgid "Choose an object"
 msgstr "Choisir un objet"
 
@@ -425,7 +425,7 @@ msgstr "Compter les valeurs uniques"
 msgid "Create a workflow and return here to view its versions"
 msgstr "Créez un workflow et revenez ici pour voir ses versions"
 
-#: src/pages/settings/developers/SettingsDevelopers.tsx:56
+#: src/pages/settings/developers/SettingsDevelopers.tsx:77
 msgid "Create API key"
 msgstr "Créer une clé API"
 
@@ -442,7 +442,7 @@ msgstr "Créer un profil"
 msgid "Create Role"
 msgstr "Créer un rôle"
 
-#: src/pages/settings/developers/SettingsDevelopers.tsx:72
+#: src/pages/settings/developers/SettingsDevelopers.tsx:93
 msgid "Create Webhook"
 msgstr "Créer un Webhook"
 
@@ -466,7 +466,7 @@ msgstr "Personnaliser le domaine"
 msgid "Customize your workspace security"
 msgstr "Personnaliser la sécurité de votre espace de travail"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:341
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:239
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx:235
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx:250
 #: src/modules/settings/profile/components/DeleteWorkspace.tsx:30
@@ -517,7 +517,7 @@ msgstr "Désactiver le workflow"
 msgid "Define the name and description of your object"
 msgstr "Définir le nom et la description de votre objet"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:347
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:245
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx:241
 #: src/modules/action-menu/components/__stories__/RightDrawerActionMenuDropdown.stories.tsx:88
 #: src/modules/action-menu/components/__stories__/RecordIndexActionMenuDropdown.stories.tsx:59
@@ -556,13 +556,13 @@ msgstr "Supprimer l'enregistrement"
 msgid "Delete records"
 msgstr "Supprimer des enregistrements"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:342
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:240
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx:236
 msgid "Delete this integration"
 msgstr "Supprimer cette intégration"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:356
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:364
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:254
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:262
 msgid "Delete webhook"
 msgstr "Supprimer le webhook"
 
@@ -588,7 +588,7 @@ msgstr "Supprimer l'ensemble de l'espace de travail"
 msgid "Descending"
 msgstr "Descendant"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:250
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:150
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx:239
 #: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx:266
 msgid "Description"
@@ -601,10 +601,9 @@ msgstr "Description"
 msgid "Destroy"
 msgstr "Détruire"
 
-#: src/pages/settings/developers/SettingsDevelopers.tsx:35
-#: src/pages/settings/developers/SettingsDevelopers.tsx:42
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx:79
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:220
+#: src/pages/settings/developers/SettingsDevelopers.tsx:56
+#: src/pages/settings/developers/SettingsDevelopers.tsx:63
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:125
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx:89
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx:169
 msgid "Developers"
@@ -621,9 +620,9 @@ msgid "Display as relative date"
 msgstr "Afficher comme date relative"
 
 #: src/pages/settings/SettingsWorkspace.tsx:51
-#: src/pages/settings/workspace/SettingsHostname.tsx:115
-#: src/pages/settings/workspace/SettingsDomain.tsx:115
-#: src/pages/settings/workspace/SettingsDomain.tsx:125
+#: src/pages/settings/workspace/SettingsDomain.tsx:185
+#: src/pages/settings/workspace/SettingsDomain.tsx:195
+#: src/pages/settings/workspace/SettingsCustomDomain.tsx:25
 msgid "Domain"
 msgstr "Domaine"
 
@@ -686,8 +685,7 @@ msgstr "Employés"
 msgid "Empty"
 msgstr "Vide"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx:97
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:238
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:134
 msgid "Endpoint URL"
 msgstr "URL du point de terminaison"
 
@@ -715,7 +713,7 @@ msgstr "Erreur lors de la régénération de la clé API : {err}"
 msgid "Error while switching subscription {to}."
 msgstr "Erreur lors du changement d'abonnement {to}."
 
-#: src/pages/settings/developers/SettingsDevelopers.tsx:66
+#: src/pages/settings/developers/SettingsDevelopers.tsx:87
 msgid "Establish Webhook endpoints for notifications on asynchronous events."
 msgstr "Configurer des points de terminaison Webhook pour les notifications d'événements asynchrones."
 
@@ -816,7 +814,7 @@ msgstr "Nombre de champs"
 msgid "Filter"
 msgstr "Filtre"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:265
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:164
 msgid "Filters"
 msgstr "Filtres"
 
@@ -850,7 +848,7 @@ msgstr "Fonctions"
 
 #: src/pages/settings/SettingsWorkspace.tsx:29
 #: src/pages/settings/SettingsWorkspace.tsx:35
-#: src/pages/settings/workspace/SettingsDomain.tsx:122
+#: src/pages/settings/workspace/SettingsDomain.tsx:192
 #: src/modules/settings/components/SettingsNavigationDrawerItems.tsx:143
 msgid "General"
 msgstr "Général"
@@ -923,6 +921,10 @@ msgstr "Intégrations"
 msgid "Invalid auth provider"
 msgstr "Fournisseur d'authentification invalide"
 
+#: src/pages/settings/workspace/SettingsDomain.tsx:48
+msgid "Invalid custom domain. Custom domains have to be smaller than 256 characters in length, cannot be IP addresses, cannot contain spaces, cannot contain any special characters such as _~`!@#$%^*()=+{}[]|\\;:'\",<>/? and cannot begin or end with a '-' character."
+msgstr ""
+
 #: src/modules/settings/profile/components/ChangePassword.tsx:21
 msgid "Invalid email"
 msgstr "Email invalide"
@@ -932,7 +934,7 @@ msgstr "Email invalide"
 msgid "Invalid email or domain"
 msgstr "Email ou domaine invalide"
 
-#: src/pages/settings/workspace/SettingsDomain.tsx:71
+#: src/pages/settings/workspace/SettingsDomain.tsx:166
 msgid "Invalid form values"
 msgstr "Valeurs de formulaire invalides"
 
@@ -1140,8 +1142,8 @@ msgstr "Nouvel enregistrement"
 #~ msgstr "New Role"
 
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx:82
-msgid "New Webhook"
-msgstr "Nouveau Webhook"
+#~ msgid "New Webhook"
+#~ msgstr "Nouveau Webhook"
 
 #: src/modules/settings/accounts/components/SettingsAccountsListEmptyStateCard.tsx:56
 msgid "No connected account"
@@ -1242,7 +1244,7 @@ msgstr "Permissions"
 msgid "Picture"
 msgstr "Photo"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx:103
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:143
 msgid "Please enter a valid URL"
 msgstr "Veuillez entrer une URL valide"
 
@@ -1250,7 +1252,7 @@ msgstr "Veuillez entrer une URL valide"
 msgid "Please type \"{confirmationValue}\" to confirm you want to delete this API Key. Be aware that any script using this key will stop working."
 msgstr "Veuillez taper \"{confirmationValue}\" pour confirmer que vous souhaitez supprimer cette clé API. Sachez que tout script utilisant cette clé cessera de fonctionner."
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:358
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:256
 msgid "Please type {confirmationText} to confirm you want to delete this webhook."
 msgstr "Veuillez taper {confirmationText} pour confirmer que vous souhaitez supprimer ce webhook."
 
@@ -1421,7 +1423,7 @@ msgstr "Voir les versions"
 msgid "See versions history"
 msgstr "Voir l'historique des versions"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:266
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:165
 msgid "Select the events you wish to send to this endpoint"
 msgstr "Sélectionnez les événements à envoyer à ce point de terminaison"
 
@@ -1441,7 +1443,7 @@ msgstr "Panneau d'administration du serveur"
 msgid "Set email visibility, manage your blocklist and more."
 msgstr "Définir la visibilité des emails, gérer votre liste de blocage et plus encore."
 
-#: src/pages/settings/workspace/SettingsHostname.tsx:115
+#: src/pages/settings/workspace/SettingsCustomDomain.tsx:25
 msgid "Set the name of your domain"
 msgstr "Définir le nom de votre domaine"
 
@@ -1497,15 +1499,16 @@ msgstr "SSO"
 msgid "Subdomain"
 msgstr "Sous-domaine"
 
-#: src/pages/settings/workspace/SettingsDomain.tsx:89
+#: src/pages/settings/workspace/SettingsDomain.tsx:111
+#: src/pages/settings/workspace/SettingsDomain.tsx:138
 msgid "Subdomain already taken"
 msgstr "Sous-domaine déjà pris"
 
-#: src/pages/settings/workspace/SettingsDomain.tsx:35
+#: src/pages/settings/workspace/SettingsDomain.tsx:39
 msgid "Subdomain can not be longer than 30 characters"
 msgstr "Le sous-domaine ne peut pas dépasser 30 caractères"
 
-#: src/pages/settings/workspace/SettingsDomain.tsx:34
+#: src/pages/settings/workspace/SettingsDomain.tsx:38
 msgid "Subdomain can not be shorter than 3 characters"
 msgstr "Le sous-domaine ne peut pas être inférieur à 3 caractères"
 
@@ -1639,7 +1642,7 @@ msgstr "Le type de déclencheur doit être Manuel - lorsqu'aucun enregistrement 
 msgid "Type"
 msgstr "Type"
 
-#: src/modules/command-menu/components/CommandMenuTopBar.tsx:154
+#: src/modules/command-menu/components/CommandMenuTopBar.tsx:157
 msgid "Type anything"
 msgstr "Tapez n'importe quoi"
 
@@ -1660,8 +1663,7 @@ msgstr "Contacts illimités"
 msgid "Upload"
 msgstr "Téléverser"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx:101
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:242
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:138
 msgid "URL"
 msgstr "URL"
 
@@ -1670,7 +1672,7 @@ msgstr "URL"
 msgid "Use as draft"
 msgstr "Utiliser comme brouillon"
 
-#: src/pages/settings/workspace/SettingsDomain.tsx:37
+#: src/pages/settings/workspace/SettingsDomain.tsx:41
 msgid "Use letter, number and dash only. Start and finish with a letter or a number"
 msgstr "Utilisez uniquement des lettres, des chiffres et des tirets. Commencez et terminez par une lettre ou un chiffre"
 
@@ -1709,16 +1711,15 @@ msgstr "Visualiser"
 msgid "We support your square PNGs, JPEGs and GIFs under 10MB"
 msgstr "Nous prenons en charge vos PNG, JPEG et GIF carrés de moins de 10 Mo"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx:98
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:239
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:135
 msgid "We will send POST requests to this endpoint for every new event"
 msgstr "Nous enverrons des requêtes POST à ce point de terminaison pour chaque nouvel événement"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:223
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:128
 msgid "Webhook"
 msgstr "Webhook"
 
-#: src/pages/settings/developers/SettingsDevelopers.tsx:65
+#: src/pages/settings/developers/SettingsDevelopers.tsx:86
 msgid "Webhooks"
 msgstr "Webhooks"
 
@@ -1746,13 +1747,12 @@ msgstr "Le workflow ne peut pas être testé"
 #: src/pages/settings/SettingsWorkspace.tsx:32
 #: src/pages/settings/SettingsBilling.tsx:135
 #: src/pages/settings/Releases.tsx:114
-#: src/pages/settings/workspace/SettingsDomain.tsx:118
+#: src/pages/settings/workspace/SettingsDomain.tsx:188
 #: src/pages/settings/security/SettingsSecurity.tsx:37
 #: src/pages/settings/roles/SettingsRoles.tsx:110
 #: src/pages/settings/integrations/SettingsIntegrations.tsx:18
-#: src/pages/settings/developers/SettingsDevelopers.tsx:39
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx:75
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:216
+#: src/pages/settings/developers/SettingsDevelopers.tsx:60
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:121
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx:85
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx:165
 #: src/pages/settings/data-model/SettingsObjects.tsx:152
@@ -1777,11 +1777,11 @@ msgstr "Logo de l'espace de travail"
 msgid "Workspace name"
 msgstr "Nom de l'espace de travail"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:254
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:154
 msgid "Write a description"
 msgstr "Rédigez une description"
 
-#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:209
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx:113
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx:156
 msgid "yes"
 msgstr "oui"
@@ -1809,4 +1809,3 @@ msgstr "Votre espace de travail"
 #: src/pages/settings/SettingsBilling.tsx:172
 msgid "Your workspace will be disabled"
 msgstr "Votre espace de travail sera désactivé"
-
